@@ -1,4 +1,4 @@
-@media (min-width: 375px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .desktop {
     display: none;
   }
@@ -97,7 +97,15 @@
     section.service {
       margin-top: 250px;
       display: grid;
+      margin-left: auto;
+      margin-right: auto;
       justify-content: center;
+      .cards.mobile{
+      .card{
+        box-shadow: -20px 0px 40px 5px  rgba(29, 29, 29, 0.1);
+        border: solid 1px rgba(29, 29, 29, 0.1);
+      }        
+      }
 
       .text-center {
         margin-left: auto;
@@ -120,6 +128,8 @@
       margin-bottom: 10px;
       margin-left: auto;
       margin-right: auto;
+      height: 950px;
+      margin-bottom:50px ;
       .text-center {
         h3 {
           font-size: 35px;
@@ -128,11 +138,12 @@
         }
       }
       .row {
-        margin-top: 60px;
+        margin-top: 100px;
         width: 350px;
         height: auto;
         margin-left: auto;
         margin-right: auto;
+
       }
 
       .form {
@@ -170,6 +181,7 @@
     .footer {
       margin-left: 54px;
       margin-right: 50px;
+      margin-top: -20px;
     }
   }
 }

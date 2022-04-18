@@ -1,7 +1,6 @@
 {
   "name": "go",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +9,16 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somosFlipa/go.git"
+  },
+  "bugs": {
+    "url": "https://github.com/somosFlipa/go/issues"
+  },
+  "homepage": "https://github.com/somosFlipa/go#readme",
+  "description": "",
+  "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"
   }
